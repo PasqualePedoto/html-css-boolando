@@ -80,6 +80,10 @@ h3{
     flex-wrap: wrap;
 }
 
+.column{
+    flex-direction: column;
+}
+
 /* HEADER */
 
 /* dimensione e grandezza dell'header */
@@ -250,4 +254,40 @@ main .flex-item.six:hover{
 
 main .favourite#heart:hover{
     color: red;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: #1A1A1A;
+    height: 120px;
+    margin-top: 30px;
+}
+
+.footer-item{
+    width: 50%;
+}
+
+footer a{
+    display: inline;
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+    padding-right: 10px;
+}
+
+#boolean{
+    padding: 20px 0 10px 0;
+    font-size: 18px;
+    color: white;
+}
+
+#other-link{
+    padding: 20px 0 10px 0;
+    font-size: 15px;
+    color: white;
+}
+
+footer .icons{
+    color: white;
 }
